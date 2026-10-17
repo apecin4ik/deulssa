@@ -1,0 +1,16 @@
+name: GriefDuels
+main: dev.duel.DuelPlugin
+version: 1.0.0
+api-version: '1.16'
+author: Valera
+description: Дуэли на мрачной арене
+softdepend: [AntiRelog]
+commands:
+  duel:
+    description: Меню дуэлей
+    usage: /duel
+permissions:
+  duel.use:
+    default: true
+  duel.admin:
+    default: op
